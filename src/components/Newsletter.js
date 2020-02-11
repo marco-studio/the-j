@@ -19,9 +19,7 @@ const Newsletter = () => {
         Never Miss a Thing
       </div>
       <div className="mt-6 mb-6 text-gray-700 leading-relaxed md:text-xl">
-        Please sign up to our mailing list to receive latest news on everything
-        OTB direct to your email and get exclusive access to content, giveaways,
-        free tickets to live shows and more!
+        Please sign up to our mailing list to receive latest news and updates!
       </div>
 
       <div>
@@ -56,7 +54,7 @@ const Newsletter = () => {
                 id="ck_subscribe_button"
                 class={` ${albumStyle.footer} ${
                   albumStyle.newsletter
-                } text-sm shadow block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-indigo hover:bg-indigo-dark focus:bg-indigo-dark text-white text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5`}
+                } text-sm shadow block w-full sm:w-auto rounded-lg sm:rounded-none focus:outline-none bg-indigo hover:bg-indigo-dark focus:bg-indigo-dark text-gray-900 text-shadow uppercase tracking-wide font-semibold px-6 py-4 lg:py-5`}
                 onClick={() => setSubscribe((subscribe = true))}
               >
                 Subscribe
